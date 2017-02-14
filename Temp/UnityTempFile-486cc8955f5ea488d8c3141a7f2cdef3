@@ -81,7 +81,12 @@
 -define:UNITY_TEAM_LICENSE
 -define:CROSS_PLATFORM_INPUT
 'Assets/Scripts/DontDestroy.cs'
+'Assets/Scripts/FlyMovement.cs'
+'Assets/Scripts/FlyPickup.cs'
+'Assets/Scripts/FlySpawner.cs'
+'Assets/Scripts/FollowCamera.cs'
 'Assets/Scripts/GameQuality.cs'
+'Assets/Scripts/PickupParticlesDestruction.cs'
 'Assets/Scripts/PlayerMovement.cs'
 -r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll'
