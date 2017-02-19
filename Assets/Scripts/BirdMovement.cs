@@ -8,6 +8,8 @@ public class BirdMovement : MonoBehaviour {
 	private Transform target;
 	private NavMeshAgent birdAgent;
 	private Animator birdAnimator;
+	[SerializeField]
+	private RandomSoundPlayer birdFootsteps;
 
 	// Use this for initialization
 	void Start () {
@@ -25,5 +27,11 @@ public class BirdMovement : MonoBehaviour {
 
 		// Pass the velocity to the animator component
 		birdAnimator.SetFloat ("Speed", speed);
+
+		if (speed > 0f) {
+			birdFootsteps.enabled = true;
+		} else {
+			birdFootsteps.enabled = false;
+		}
 	}
 }
